@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #776B5D; /* Dark taupe background color */
+    color: #000; /* Black text color for better contrast */
+}
+
+.navbar {
+    background-color: #B0A695; /* Light taupe for the navbar */
+}
+
+.navbar-brand {
+    color: #000; /* Black text color */
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #000; /* Black background color */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+.section {
+    padding: 50px 0;
+    background-color: #EBE3D5; /* Light beige background color for sections */
+}
+
+.container {
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    color: #000; /* Black text color */
+}
+
+p {
+    font-size: 16px;
+    color: #000; /* Black text color */
+}
+
+.education-item,
+.language-item,
+.skill-item {
+    background-color: #F3EEEA; /* Light cream for content boxes */
+    border: 2px solid #EBE3D5; /* Light beige border for contrast */
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.education-item h3,
+.language-item h3,
+.skill-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000; /* Black text color */
+}
+
+.education-item p,
+.language-item p,
+.skill-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+.education-item:hover,
+.language-item:hover,
+.skill-item:hover {
+    background-color: #D9D0BD; /* Lighter taupe on hover */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #776B5D; /* Dark taupe for buttons */
+    color: #000; /* Black text color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #B0A695; /* Lighter taupe on hover */
+}
+
+.resume-button {
+    margin: 20px 0;
+}
+
+/* Styles for About Section */
+#about {
+    padding: 60px 0;
+    background-color: #EBE3D5; /* Light beige background color */
+}
+
+.about-content {
+    text-align: justify;
+    background-color: #F3EEEA; /* Light cream background color for content */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a light shadow */
+    border-radius: 10px;
+}
+
+.profile-image {
+    margin-top: 20px;
+    background-color: #F3EEEA; /* Light cream background for the image */
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #B0A695; /* Light taupe border */
+    border-radius: 50%;
+}
+
+/* Colors for Section Headings */
+h2 {
+    color: #000; /* Black text color for section headings */
+}
+
+/* Background color for Education, Languages, and Skills Sections */
+.education, .languages, .skills {
+    background-color: #EBE3D5; /* Light beige background color */
+}
+
+/* Box styles for Education, Languages, and Skills Sections */
+.education-item, .language-item, .skill-item {
+    background-color: #F3EEEA; /* Light cream background for content boxes */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a light shadow */
+    border-radius: 10px;
+}
+
+/* Button styles for Download Resume */
+.download-resume {
+    background-color: #B0A695; /* Light taupe background color */
+    color: #000; /* Black text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.download-resume:hover {
+    background-color: #776B5D; /* Darker taupe on hover */
+}
+
+.grade-item {
+    background-color: #F3EEEA; /* Light cream background color for grades section */
+    border: 2px solid #EBE3D5; /* Light beige border for contrast */
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
